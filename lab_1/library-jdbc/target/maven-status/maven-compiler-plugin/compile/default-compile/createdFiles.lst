@@ -1,1 +1,11 @@
-org/example/App.class
+org/example/dao/StatusDao.class
+org/example/Main.class
+org/example/model/Reader.class
+org/example/db/DatabaseUtil.class
+org/example/model/Book.class
+org/example/db/DatabaseInit.class
+org/example/dao/BookDao.class
+org/example/dao/ReaderDao.class
+org/example/dao/LibraryDao.class
+org/example/model/Status.class
+org/example/model/Library.class

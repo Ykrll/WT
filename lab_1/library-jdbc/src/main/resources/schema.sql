@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS review (
     book_id INTEGER NOT NULL,
     reader_id INTEGER NOT NULL,
     text VARCHAR(500),
-    rating INTEGER,
+    rating INTEGER CHECK (rating BETWEEN 1 AND 5),
     review_date DATE NOT NULL,
     FOREIGN KEY (book_id) REFERENCES book(id),
     FOREIGN KEY (reader_id) REFERENCES reader(id)
