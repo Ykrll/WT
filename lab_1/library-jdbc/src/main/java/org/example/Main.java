@@ -16,15 +16,14 @@ public class Main {
         LibraryDao libraryDao = new LibraryDao();
         BookDao bookDao = new BookDao();
 
-        libraryDao.save(new Library("Central Library"));
-
-        Library lib = libraryDao.findAll().get(0);
+        Library lib = new Library("Central Library");
+        libraryDao.save(lib);
 
         bookDao.save(new Book("1984", "George Orwell", lib.getId()));
         bookDao.save(new Book("Solaris", "Stanislaw Lem", lib.getId()));
 
         for (Book b : bookDao.findAll()) {
-            System.out.println(b.getTitle());
+            System.out.println(b.getTitle() + "\t" + b.getAuthor());
         }
 
     }
