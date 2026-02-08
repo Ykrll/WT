@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DatabaseUtil {
-    private static final String URL = "jdbc:h2:./labdb";
+    private static final String URL = "jdbc:h2:mem:labdb;DB_CLOSE_DELAY=-1";
     private static final String USER = "sa";
     private static final String PASSWORD = "";
 
