@@ -2,10 +2,12 @@
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/dao/BookDao.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/dao/LibraryDao.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/dao/ReaderDao.java
+/home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/dao/ReviewDao.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/dao/StatusDao.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/db/DatabaseInit.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/db/DatabaseUtil.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/model/Book.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/model/Library.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/model/Reader.java
+/home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/model/Review.java
 /home/kirill/VS_Code_Files/UNI/WT/lab_1/library-jdbc/src/main/java/org/example/model/Status.java

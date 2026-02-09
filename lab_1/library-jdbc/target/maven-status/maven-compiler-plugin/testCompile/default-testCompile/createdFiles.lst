@@ -1,0 +1,5 @@
+org/example/StatusDaoTest.class
+org/example/ReaderDaoTest.class
+org/example/BookDaoTest.class
+org/example/LibraryDaoTest.class
+org/example/ReviewDaoTest.class
